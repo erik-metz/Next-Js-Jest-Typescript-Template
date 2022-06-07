@@ -1,0 +1,8 @@
+
+//robots.txt
+Sitemap: https://my-site/api/sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
