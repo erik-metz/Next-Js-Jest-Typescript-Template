@@ -1,25 +1,51 @@
-# Next.js + Jest
+# Simple Homepage
 
-This example shows how to configure Jest to work with Next.js.
+## Structure
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+```
+my simple homepage
+│   README.md
+│   file001.txt
+│
+└───public
+│       sitemap.xml
+│       robots.txt
+│       favicon.ico
+│       logo.png
+└───src
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───pages
+│       │   index.tsx
+│       │   about.tsx
+│       │   404.tsx
+│       │   privacy.tsx // privacy policy
+│       │   terms.tsx // terms and conditions
+│       │   cookies.tsx // cookie policy
+│       │   disclaimer.tsx
 
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-# or
-pnpm create next-app --example with-jest with-jest-app
 ```
 
-## Run Jest Tests
+## TDD
 
-```bash
-npm test
-```
+[youtube](https://youtu.be/tX-gu6FWcsE)
+[TDD-Guide](http://blog.wingman-sw.com/tdd-guided-by-zombies)
+
+Z – Zero
+
+O – One
+
+M – Many (or More complex)
+
+B – Boundary Behaviors
+
+I – Interface definition
+
+E – Exercise Exceptional behavior
+
+S – Simple Scenarios, Simple Solutions
+
+### RTL React-Testing-Library
+
+#### [Roles](https://components.guide/react+typescript/testing)
