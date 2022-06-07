@@ -1,4 +1,6 @@
-# Simple Homepage
+# Simple Next Homepage
+
+[Thank you for buying me a coffee ☕ to support this project!](https://www.buymeacoffee.com/c3po)
 
 ## Structure
 
